@@ -1,0 +1,158 @@
+.popupContainer {
+    position: fixed;
+    /* top: 5%; */
+    top: 0;
+    right: 0;
+    width: 600px;
+    height: 100%;
+    background: linear-gradient(180deg, #f0f7ff 0%, #b2d6fe 100%);
+    transition: right 0.5s ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+    z-index: 1001;
+    cursor: default;
+}
+
+.popupContainerClosed {
+    right: -600px;
+}
+
+.openPopup {
+    position: fixed;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    height: 80px;
+
+    background: linear-gradient(129deg, #1B7EE2 0%, #023A72 100%);
+    color: #fff;
+    font-size: 30px;
+    border-radius: 50px 0 0 50px;
+    cursor: pointer;
+    font-weight: 700;
+    /* padding-left: 40px; */
+    z-index: 400;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.openPopup:hover {
+    background: linear-gradient(129deg, #1870C7 0%, #012D59 100%);
+}
+
+.title {
+    height: 80px;
+    width: 600px;
+    color: #000;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadFilesContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.uploadFiles {
+    margin-top: 30px;
+    width: 400px;
+    height: 80px;
+    color: #fff;
+    background: linear-gradient(129deg, #1B7EE2 0%, #023A72 100%);
+    font-size: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uploadFiles:hover {
+    background: linear-gradient(129deg, #1870C7 0%, #012D59 100%);
+}
+
+.folderName {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.version {
+    margin-top: 10px;
+    margin-left: 45px;
+    margin-right: 45px;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.versionTilte {
+    font-size: 30px;
+}
+
+.versionButton {
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    cursor: pointer;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: 15px;
+}
+
+.versionButton:hover {
+    background-color: #f8f8f8;
+}
+
+.selectedStage {
+    background-color: #4F92FF;
+    color: #fff;
+    cursor: default;
+}
+
+.selectedStage:hover {
+    background-color: #4F92FF;
+}
+
+.resetProjectContainer {
+    width: 100%;
+    height: 184px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resetProjectButton {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 400px;
+    height: 80px;
+    background-color: #FF5555;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.resetProjectButton:hover {
+    background-color: #E63946;
+}

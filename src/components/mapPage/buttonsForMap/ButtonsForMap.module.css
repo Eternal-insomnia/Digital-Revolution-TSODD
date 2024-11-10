@@ -1,0 +1,45 @@
+.container {
+    position: fixed;
+    bottom: 60px;
+    left: 75px;
+    /* width: 600px;
+    height: 100%; */
+    
+    z-index: 1;
+
+    display: flex;
+    /* flex-direction: column; */
+    z-index: 1000;
+}
+
+.button {
+    width: 400px;
+    height: 80px;
+
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.blueButton {
+    background: linear-gradient(129deg, #1B7EE2 0%, #023A72 100%);
+}
+
+.blueButton:hover {
+    background: linear-gradient(129deg, #1870C7 0%, #012D59 100%);
+}
+
+.grayButton {
+    margin-left: 30px;
+    background: linear-gradient(129deg, #BABABA 0%, #737373 100%);
+}
+
+.grayButton:hover {
+    background: linear-gradient(129deg, #8E8E8E 0%, #4C4C4C 100%);
+}
