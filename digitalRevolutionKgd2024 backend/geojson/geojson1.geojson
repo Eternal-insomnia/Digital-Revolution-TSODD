@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "out",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"features": [
+{ "type": "Feature", "properties": { "ST_NAME": null, "ST_TYP_BEF": null, "ST_NM_BASE": null, "ROAD_CATEG": "Прочие улицы города", "RoadDirect": "T", "RbndStght": 1.0, "RbndBck": 1.0, "Width": 6.0, "MaxSpdDrct": 0, "AvgSpdDrct": 0, "MaxSpdRvrs": 60, "AvgSpdRvrs": 51, "Foot": 1, "Car": 1 }, "geometry": { "type": "LineString", "coordinates": [ [ 4172103.98, 7467757.54 ], [ 4172074.73, 7467746.650000000372529 ] ] } }
+]
+}

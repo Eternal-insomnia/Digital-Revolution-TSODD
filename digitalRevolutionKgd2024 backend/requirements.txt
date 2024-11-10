@@ -1,0 +1,12 @@
+geopandas
+geojson
+shapely
+openai
+fastapi
+uvicorn
+python-multipart
+geopy
+networkx
+folium
+matplotlib
+scipy
